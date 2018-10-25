@@ -1,0 +1,37 @@
+{
+    "name": "stupidnb/composer",
+    "authors": [
+        {
+            "name": "dangzhiqiang",
+            "email": "dangzhiqiang@vchangyi.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0.0",
+    	"doctrine/dbal": "^2.6",
+    	"tymon/jwt-auth": "1.0.0-rc.2",
+    	"monolog/monolog": "1.0.*",
+        "driehle/php-crypt-md5": "2.0.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "files": [
+            "app/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
