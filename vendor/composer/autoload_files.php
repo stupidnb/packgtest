@@ -10,5 +10,5 @@ return array(
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
     'bd9634f2d41831496de0d3dfe4c94881' => $vendorDir . '/symfony/polyfill-php56/bootstrap.php',
-    '50859be53576511e7336978b23bb0172' => $baseDir . '/app/helpers.php',
+    '063afc0a83c28d3d3e9f217c27f8da75' => $baseDir . '/app/helpers.php',
 );
